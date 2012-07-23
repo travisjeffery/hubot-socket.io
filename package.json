@@ -1,0 +1,22 @@
+{
+  "name":        "hubot-socketio",
+  "version":     "2.3.0",
+  "author":      "Tom Bell",
+  "keywords":    "github hubot socketio",
+  "description": "A Socket.IO adapter for hubot",
+  "licenses":     [{
+    "type":       "MIT",
+    "url":        "http://github.com/tombell/hubot-socketio/raw/master/LICENSE"
+  }],
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/tombell/hubot-socketio.git"
+  },
+  "dependencies": {
+    "socket.io": "0.9.6"
+  },
+  "devDependencies": {
+    "coffee-script": "1.2.0"
+  },
+  "main": "./src/socketio"
+}
