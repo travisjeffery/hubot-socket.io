@@ -1,8 +1,8 @@
 {
-  "name":        "hubot-socketio",
+  "name":        "hubot-socket.io",
   "version":     "2.3.0",
   "author":      "Tom Bell",
-  "keywords":    "github hubot socketio",
+  "keywords":    "github hubot socket.io socketio",
   "description": "A Socket.IO adapter for hubot",
   "licenses":     [{
     "type":       "MIT",
