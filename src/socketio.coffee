@@ -4,6 +4,11 @@ port = parseInt process.env.HUBOT_SOCKETIO_PORT or 9090
 
 io = require('socket.io').listen port
 
+if process.env.HEROKU_URL 
+  io.configure ->
+    io.set "transports", ["xhr-polling"]
+    io.set "polling-duration", 10
+
 class SocketIO extends Adapter
 
   constructor: (@robot) ->
