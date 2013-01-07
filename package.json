@@ -1,16 +1,16 @@
 {
   "name":        "hubot-socket.io",
   "version":     "2.3.0",
-  "author":      "Tom Bell",
+  "author":      "Travis Jeffery",
   "keywords":    "github hubot socket.io socketio",
   "description": "A Socket.IO adapter for hubot",
   "licenses":     [{
     "type":       "MIT",
-    "url":        "http://github.com/tombell/hubot-socketio/raw/master/LICENSE"
+    "url":        "https://raw.github.com/travisjeffery/hubot-socket.io/master/LICENSE.md"
   }],
   "repository" : {
     "type" : "git",
-    "url" : "http://github.com/tombell/hubot-socketio.git"
+    "url" : "http://github.com/travisjeffery/hubot-socket.io.git"
   },
   "dependencies": {
     "socket.io": "0.9.6"
